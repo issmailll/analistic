@@ -1,0 +1,34 @@
+.analize {
+  margin-bottom: 114px;
+}
+.analize__list {
+  @include reset-list;
+}
+.analize__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.analize__text-wrapper {
+  max-width: 480px;
+}
+.analize__text-wrapper-pleft{
+    padding-right: 30px;
+}
+.analize__item-title {
+  margin-bottom: 30px;
+  color: #172755;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.analize__item-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #8794ba;
+}

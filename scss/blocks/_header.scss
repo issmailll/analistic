@@ -1,0 +1,66 @@
+header {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  // &::before{
+  //   content: '';
+  //   display: block;
+  //   width: 660px;
+  //   height: 660px;
+  //   position: absolute;
+  //   background: url(../../img/subtract.svg) no-repeat;
+  //   top: -60px;
+  //   left: -150px;
+  // }
+  // &::after{
+  //   content: '';
+  //   display: block;
+  //   width: 1438px;
+  //   height: 1438px;
+  //   position: absolute;
+  //   background: url(../../img/big-subtract.svg) no-repeat;
+  //   top: 0;
+  //   left: 235px;
+  // }
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  @include reset-list;
+  margin-left: 95px;
+}
+.header__list-item {
+  margin-right: 36px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.header__list-link {
+  color: #8794ba;
+  font-weight: 400;
+  line-height: 18px;
+}
+.header__sign-up-wrapper {
+  margin-left: 314px;
+}
+.header__signin-link {
+  margin-right: 40px;
+  color: #8794ba;
+  font-weight: 400;
+  line-height: 18px;
+}
+.header__signup-link {
+  color: #8794ba;
+  font-weight: 400;
+  line-height: 18px;
+  border: 1px solid #465b95;
+  padding: 10px 40px;
+  border-radius: 68px;
+}
+.color {
+  background-color: #172755;
+}
